@@ -7,8 +7,8 @@ The dataset contains annual data from over 150 countries/areas (in the dataset a
 
 To predict power consumption and carbon emission for each Entity, time series forecasting models will be used in combination with time series observations in the dataset, univariate time series models will only use target past data to predict and multivariate will use all provided observations (feature engineering may be improved later to increase performance)
 Currently built models (will continue to test new models in the future):
-* LSTM (Long short-term memory) encoder-decoder for Univariate time series (UTS)
-* LSTM encoder-decoder for Multivariate time series (MTS)
+* LSTM (Long short-term memory) encoder-decoder for Univariate time series (UTS) (3 lags for predicting 5 steps)
+* LSTM encoder-decoder for Multivariate time series (MTS) (3 lags for predicting 5 steps)
 * Facebook prophet for UTS
 * Facebook prophet for MTS (using add_regressor)
 * Neural prophet for UTS (3 lags AR window)
