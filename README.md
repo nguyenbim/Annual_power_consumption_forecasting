@@ -28,4 +28,13 @@ Results predictions for 3 Countries, Algeria, Australia, and Canada: Predictions
 | *Power consumption in Algeria from 2016-2025*                | *Power consumption in Australia from 2016-2025*                | *Power consumption in Canada from 2016-2025*                |
 
 
-The test notebook for forecasting power consumption using all features can fail when running locally, my suggestion is to use google-colab to ensure the demo. The reason is that the model used in this notebook is trained by google-colab. In case to run it locally, please install the requirements for the correct environment, or retrain the model and use it to do the test.
+</br>
+The test notebook for forecasting power consumption using all features can fail when running locally, my suggestion is to use google-colab to ensure the demo. The reason is that the model used in this notebook is trained by google-colab. In case to run it locally, please install the requirements for the correct environment (using 'pip install -r ./notebooks/requirements.txt' (however, this file contains many unnecessary requirements, so it is better to only focus on the tensorflow and keras version), or retrain the model and use it to do the test.
+</br>
+</br>
+
+<p align="center">
+  <img src="./images/demo_test.png" style="display: block; margin: auto;">
+  </br>
+  <i>Forecasting power consumption in Zimbabwe from 2021-2025 using LSTM MTS model</i>
+</p>
