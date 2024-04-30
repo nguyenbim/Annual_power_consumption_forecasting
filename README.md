@@ -28,4 +28,4 @@ Results predictions for 3 Countries, Algeria, Australia, and Canada: Predictions
 | *Power consumption in Algeria from 2016-2025*                | *Power consumption in Australia from 2016-2025*                | *Power consumption in Canada from 2016-2025*                |
 
 
-The demonstration notebook for forecasting power consumption using all features can fail when running locally, my suggestion is to use google-colab to ensure the demo. The reason is that the model used in this notebook is trained by google-colab. In case to run it locally, please install the requirements for the correct environment, or retrain the model and use it to do the test.
+The test notebook for forecasting power consumption using all features can fail when running locally, my suggestion is to use google-colab to ensure the demo. The reason is that the model used in this notebook is trained by google-colab. In case to run it locally, please install the requirements for the correct environment, or retrain the model and use it to do the test.
